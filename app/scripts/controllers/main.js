@@ -41,7 +41,6 @@ angular.module('binauralBeatsApp')
     });
 
     $scope.$watch('panA', function (newval, oldval) {
-        console.log('panA', arguments)
         aa.pos.value = Number(newval)/100;
     });
 
